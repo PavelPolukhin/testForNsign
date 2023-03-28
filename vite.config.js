@@ -1,6 +1,7 @@
-/** * @type {{server: {port: number, hot: boolean}, root: string}}*/
+/*** @type {import('vite').UserConfig}*/
 const config = {
     root: './src',
+    base: '/testForNsign/',
     build: {
         outDir: '../dist'
     },
