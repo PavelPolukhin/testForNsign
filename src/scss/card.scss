@@ -1,0 +1,17 @@
+@import "vars";
+
+.card {
+  &-form {
+    background: $grayBck;
+    border-radius: 8px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-text{
+    &-info{
+      background: $grayBck;
+    }
+  }
+}

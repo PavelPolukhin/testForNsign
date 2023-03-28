@@ -1,0 +1,17 @@
+.form{
+  &-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@include media-breakpoint-only(sm) {
+  .form{
+    &-title{
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

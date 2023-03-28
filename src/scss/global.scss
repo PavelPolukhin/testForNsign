@@ -1,0 +1,65 @@
+@import "vars";
+.btn {
+  color: $defaultTextColor;
+}
+p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $defaultTextColor;
+  padding: 0;
+  margin: 0;
+}
+
+b{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $defaultTextColor;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  color: $defaultTextColor;
+  margin-bottom: 0;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.main-container{
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+@include media-breakpoint-only(sm) {
+  .main-container{
+    padding: 24px 16px 64px 16px;
+  }
+  h1{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h2{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .btn {
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+  }
+}
